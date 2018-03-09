@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'bellissimo';
+    src:url('fonts/futura/futur.ttf');
+    format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+  background-color:black;
+  margin-left:75px;
+  margin-right:75px;
+  margin-top:75px;
+  margin-bottom:75px;
+}
+
+h1,h2{
+  font-family:bellissimo;
+  font-weight: 100;
+  color:white;
+  text-align: center;
+}
+
+p{
+  font-family:bellissimo;
+  color:white;
+  text-align: center;
+}
+
+a{
+  font-family:bellissimo;
+  font-weight: 100;
+  font-size: 20px;
+  padding:10px;
+  cursor:pointer;
+}
+
+a:link{
+  color:white;
+}
+
+a:hover{
+  color:yellow;
+}
