@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "futura";
+  url("./fonts/futura/futur.ttf");
+}
+
 body{
   background-color: black;
 }
@@ -5,7 +10,7 @@ body{
 
 
 h1,h2{
-  font-family:sans-serif;
+  font-family:futura;
   margin: auto;
   width: 50%;
   text-align: center;
