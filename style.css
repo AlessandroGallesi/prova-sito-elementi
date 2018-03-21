@@ -1,20 +1,21 @@
 @font-face {
   font-family: "futura";
-  url("./fonts/futura/futur.ttf");
+  url("./fonts/futura/FuturaLight.ttf");
 }
 
 body{
   background-color: black;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:25%;
+  text-align: center;
 }
 
 
 
 h1,h2{
   font-family:futura;
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  padding-top: 10px;
+
   color:white;
 }
 
