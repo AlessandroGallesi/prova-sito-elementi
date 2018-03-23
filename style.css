@@ -9,7 +9,7 @@ body{
   background-color: black;
   margin-left:20%;
   margin-right:20%;
-  margin-top:15%;
+  margin-top:5%;
 }
 
 
@@ -27,8 +27,12 @@ h1, h2{
 p{
   color:white;
   font-family: monospace;
+  height: 50%;
+  overflow: scroll;
 }
 a{
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
 }
 
