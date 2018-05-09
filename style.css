@@ -20,13 +20,13 @@ body{
 
 .titolo{
   font-size: 7vh;
-  text-align:center;
-  padding-bottom: 5vh;
+  text-align: center;
+  padding: 2vh;
 }
 
 .sottotitolo{
   font-size: 4vh;
-  text-align:center;
+  text-align: left;
   padding-bottom: 2vh;
 }
 
