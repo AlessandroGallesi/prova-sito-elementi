@@ -1,3 +1,13 @@
+/*
+background: #b2c2bf
+title/animations:#eaece5
+animation alternate: #c0ded9
+text: #3b3a30
+*/
+
+
+
+
 @font-face {
   font-family: "futura";
   url("../prova-sito-elementi/fonts/futura/FuturaLight.ttf") format('truetype');
@@ -6,28 +16,34 @@
 }
 
 body{
-  background-color: black;
-  margin-left:20%;
-  margin-right:20%;
-  margin-top:5%;
+  background-color: #b2c2bf;
+  margin-left:20vw;
+  margin-right:20vw;
+  margin-top:5vh;
 }
 
 
 .titolo{
+  font-size: 5vh;
   text-align:center;
-  padding-bottom: 100px;
+  padding-bottom: 5vh;
+}
+
+.sottotitolo{
+  font-size: 3vh;
+  text-align:center;
+  padding-bottom: 2vh;
 }
 
 h1, h2{
   font-family:futura;
-
-  color:white;
+  color:#3b3a30;
 }
 
 p{
-  color:white;
+  color:#3b3a30;
   font-family: monospace;
-  height: 50%;
+  height: 50vh;
   overflow: scroll;
 }
 a{
@@ -37,12 +53,12 @@ a{
 }
 
 a:link{
-  color:white;
+  color:#3b3a30;
 }
 a:visited{
-  color:white;
+  color:#3b3a30;
 }
 
 a:hover{
-  color:yellow;
+  color:#eaece5;
   cursor:default;}
