@@ -8,12 +8,7 @@ text: #3b3a30
 
 
 
-@font-face {
-  font-family: "futura";
-  url("../prova-sito-elementi/fonts/futura/FuturaLight.ttf") format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
+
 
 body{
   background-color: #b2c2bf;
@@ -24,19 +19,19 @@ body{
 
 
 .titolo{
-  font-size: 5vh;
+  font-size: 7vh;
   text-align:center;
   padding-bottom: 5vh;
 }
 
 .sottotitolo{
-  font-size: 3vh;
+  font-size: 4vh;
   text-align:center;
   padding-bottom: 2vh;
 }
 
 h1, h2{
-  font-family:futura;
+  font-family:sans-serif;
   color:#3b3a30;
 }
 
